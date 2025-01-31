@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* Reset default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    font-family: "Nunito", serif;
+}
+
+/* container */
+.container {
+    /* max-width: 960px; */
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+}
+
+/* box */
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+}
+
+.meta-details{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.body {
+    text-align: justify;
+}
+
+.meta-details p {
+    margin-right: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box-1{
+    width: 300px;
+    padding: 0.5rem;
+}
+
+.box-2{
+    /* background-color: orange; */
+    flex-grow: 1;
+    padding: 1rem;
+}
+.box-2 .img-container{
+    background-image: url('./img/img-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+.box-2 h1 {
+    text-align: center;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 .content-div{
+    flex-grow: 1;
+    /* background-color: green; */
+    min-height: 100px;
+}
+.box-3{
+    width: 300px;
+    padding: 0.5rem;
+}
+
